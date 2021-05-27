@@ -1,0 +1,39 @@
+html{font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box; scroll-behavior: smooth;}
+		body,h1,h2,p,div,ul,li{margin:0; padding:0;}
+		a{text-decoration: none; color:black;}
+		h1{font-weight: 800; word-spacing: -1px; font-size: 3em; letter-spacing: -2px; padding-top: 100px}
+		h2{font-weight: 500; word-spacing: -1px; font-size: 2em; letter-spacing: -2px;padding-bottom: 1em;}
+		header{background: url(../img/codecode.jpg); height:400px;}
+		header p{width:500px; margin:auto; padding-top: 30px;}
+		header .abs{position: absolute; height: 400px; background: black; width:100%; opacity: 0.4; z-index: 2;}
+		nav{position: sticky; top:0;background: white;
+		z-index: 40}
+		nav ul{margin:auto;}
+		nav ul li{list-style-type: none; width:20%;height:40px;}
+		nav ul li a{display: block; line-height: 40px; text-align: center;}
+		nav ul li a:hover{background: blue; transition: all 0.5s; color: white;}
+		section{padding-top: 40px;margin-top: 40px;padding-bottom: 40px;}
+		footer{padding-top:40px;}
+		.text-center{text-align: center}
+		.bg-gray{background: gray}
+		.bg-white{background: white}
+		.bg-blue{background: blue;}
+		.bg-orange{background: orange;}
+		.bg-skyblue{background: skyblue}
+		.bg-deepblue{background: navy;}
+		.bg-red{background: red}
+		.bg-1{background: url(../img/bg1.jpg)}
+		.bgfixed{background-attachment: fixed;}
+		.h-200{height: 200px}
+		.h-400{height: 400px}
+		.h-600{height: 600px}
+		.row{width:1000px; margin:auto; z-index: 20;position: relative;}
+		.row div{padding:15px;}
+		.flexbox{display: flex}
+		.col-1{width:16.66%;}
+		.col-2{width:33.33%;}
+		.col-3{width:50%;}
+		.col-4{width:66.66%;}
+		.col-5{width:83.32%;}
+		.col-6{width:100%;}
+		.text-white{color: white}
